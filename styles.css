@@ -1,32 +1,33 @@
-
-/* Your CSS Code here. */
-body{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+/* CSS Code */
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.box{
-	height:100px;
-	width:100px;
-	font-size:34px;
-	margin:10px;
-	justify-content:space-between;
+.holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-#b1{
-	background-color:green;
-	align-item:center;
+.box {
+  height: 100px;
+  width: 100px;
+  font-size: 34px;
+  margin: 10px;
 }
 
-#b2{
-	background-color:red;
-	align-item:right;
+#b1 {
+  background-color: green;
+  align-self: flex-start;
 }
 
-#b3{
-	background-color:blue;
-	align-item:left;
+#b2 {
+  background-color: red;
+  align-self: center;
+}
+
+#b3 {
+  background-color: blue;
+  align-self: flex-end;
 }
